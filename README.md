@@ -11,3 +11,11 @@ Args:
 
 Returns:
     float: Weighted F1 score.
+
+# Installation
+
+Clone the repo and install locally:
+bash
+git clone https://github.com/James-1Sun/Custom-F1.git
+cd Custom-F1
+pip install .
