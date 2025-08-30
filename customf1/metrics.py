@@ -1,4 +1,4 @@
-def cf1(y_true, y_pred, weights=None):
+def custom_f1_score(y_true, y_pred, weights=None):
     """
     Args:
         y_true (list or array): True labels.
@@ -35,6 +35,6 @@ def cf1(y_true, y_pred, weights=None):
 ai_actual = [0, 1, 1, 0, 2]
 ai_pred = [0, 0, 1, 1, 2]
 w = [1.0, 2.0, 0.5]
-f1 = cf1(ai_actual, ai_pred, w)
+f1 = custom_f1_score(ai_actual, ai_pred, w)
 print(f"Custom Weighted F1 Score: {f1}")
 '''
