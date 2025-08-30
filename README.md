@@ -2,7 +2,7 @@
 This is a package for custom weighted F1 calculation
 
 Function:
-    cf1(y_true, y_pred, weights=None)
+    custom_f1_score(y_true, y_pred, weights=None)
     
 Args:
     y_true (list or array): True labels.
